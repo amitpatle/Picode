@@ -1,7 +1,5 @@
 {
   "name": "PIcode-Bot",
-  "description": "Simple & High Speed Telegram Bot For only personal use",                  
-  "keywords": ["telegram", "bot", "pyrogram"],
   "repository": "https://github.com/amitpatle/Picode",
   "env": {                            
     "BOT_TOKEN": {"description": "Your bot token. Get this value from https://t.me/BotFather", "required": true},
