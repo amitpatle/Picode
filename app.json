@@ -1,5 +1,5 @@
 {
-  "name": "PIcode-Bot",
+  "name": "PIcode",
   "repository": "https://github.com/amitpatle/Picode",
   "env": {                            
     "BOT_TOKEN": {"description": "Your bot token. Get this value from https://t.me/BotFather", "required": true},
