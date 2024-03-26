@@ -1,8 +1,11 @@
 {
-  "name": "PIcode",
+  "name": "Personal-Pico-Bot",
+  "description": "Simple & High Speed Telegram Bot For only personal use",                  
+  "keywords": ["telegram", "pyrogram"],
+  "logo": "https://graph.org/file/66960df11da23aadbdce3.jpg",
   "repository": "https://github.com/amitpatle/Picode",
-  "env": {                            
-    "BOT_TOKEN": {"description": "Your bot token. Get this value from https://t.me/BotFather", "required": true},
+  "env": {                     
+    "BOT_TOKEN": {"description": "Your bot token. Get this value from https://t.me/BotFather", "required": true},      
   }, 
   "addons": [ ],
   "buildpacks": [{"url": "heroku/python"}]
