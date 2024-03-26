@@ -1,12 +1,28 @@
 {
-  "name": "Personal-Pico-Bot",
-  "description": "Simple & High Speed Telegram Bot For only personal use",                  
-  "keywords": ["telegram", "pyrogram"],
-  "logo": "https://graph.org/file/66960df11da23aadbdce3.jpg",
-  "repository": "https://github.com/amitpatle/Picode",
-  "env": {                     
-    "BOT_TOKEN": {"description": "Your bot token. Get this value from https://t.me/BotFather", "required": true},      
-  }, 
-  "addons": [ ],
-  "buildpacks": [{"url": "heroku/python"}]
+  "name": "picode",
+  "description": "A simple and lightweight code editor app built with Flutter.",
+  "repository": "https://github.com/amitpatle/picode",
+  "keywords": ["Flutter", "code editor", "app"],
+  "license": "MIT",
+  "dependencies": {
+    "flutter": "^2.10.0"
+  },
+  "scripts": {
+    "start": "flutter run",
+    "build": "flutter build apk"
+  },
+  "author": "Amit Patle",
+  "config": {
+    "flutter": {
+      "android": {
+        "package": "com.amitpatle.picode",
+        "versionCode": 1
+      },
+      "ios": {
+        "bundleIdentifier": "com.amitpatle.picode",
+        "buildNumber": "1.0.0"
+      }
+    }
+  },
+  "bot_token": "YOUR_BOT_TOKEN_HERE"
 }
